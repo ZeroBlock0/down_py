@@ -18,9 +18,8 @@ from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
 # --- 配置区域 ---
-#TARGET_URL = "https://jcomic.net/page/[Pixiv]%20NekoBlow%20(30960989)"
 
-TARGET_URL = "https://hentaiera.com/gallery/1288085/"
+TARGET_URL = "https://xxx.com/"  # 目标网页地址
 
 # 模式选择
 # 0: 极速流式模式 (针对短效链接，如 Cloudflare R2)。边滚边下，高并发，支持截图兜底。
